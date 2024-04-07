@@ -1,0 +1,10 @@
+.user-profile-img {
+    max-width: 100px; 
+    height: auto; 
+    border-radius: 50%; 
+  }
+
+  .border-red {
+    border: 2px solid red;
+}
+  

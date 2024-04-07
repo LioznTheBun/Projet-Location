@@ -1,0 +1,59 @@
+.conversation-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .conversation-list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .conversation-list-item:hover {
+    background-color: #f6f6f6;
+  }
+  
+  .conversation-list-item .sender {
+    font-weight: bold;
+  }
+  
+  .conversation-list-item .timestamp {
+    color: #888;
+    font-size: 12px;
+  }
+  
+  
+  @media (max-width: 576px) {
+    .conversation-list-item .timestamp {
+      display: block;
+    }
+}
+
+a.recherche {
+  margin-right: 5px;
+  margin-bottom: 20px;
+  color: #337ab7; 
+  text-decoration: none; 
+  transition: color 0.3s;
+}
+
+a.recherche:hover {
+  color: #23527c; 
+  text-decoration: underline; 
+}
+
+a.recherche:visited {
+  color: red; 
+}
+
+.marge{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#conversation-input {
+  display: none; 
+}
+
+#submit-button {
+  display: none; 
+}
